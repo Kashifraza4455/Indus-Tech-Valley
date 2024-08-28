@@ -596,6 +596,7 @@
         text-align: center;
         display: flex;
         justify-content: center;
+        color: white;
     }
     .banner_taital_1 {
         font-size: 40px;
@@ -605,8 +606,8 @@
         padding-top: 30px;
     }
     .banner_text {
-        width: 100%;
-        font-size: 14px;
+        width: 98%;
+        font-size: 25px;
     }
     .costume_header {
         display: none;
