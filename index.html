@@ -8,8 +8,9 @@
    <!-- mobile metas -->
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <link rel="icon" type="image/logo" href="images/favicon.png">
    <!-- site metas -->
-   <title>Softwere</title>
+   <title>Indus Tech Valley</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -32,7 +33,6 @@
    <link rel="stylesheet" href="css/owl.theme.default.min.css">
    <link rel="stylesheet" href="../ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 </head>
-
 <body>
    <!--header section start -->
    <div class="header_section">
@@ -69,8 +69,10 @@
             experience. Our reliable hosting services guarantee top performance and security for your digital assets.
             Partner with us to elevate your online presence and achieve your digital goals. </p>
          <div class="btn_main">
-            <div class="more_bt"><a href="#">Contact Us</a></div>
-            <div class="contact_bt"><a href="#">Get a quote</a></div>
+            <div class="more_bt"><a href="https://wa.me/message/XIB7BLMEVKHWI1" target="_blank">Suport</a></div>
+            <div class="contact_bt"><a target="_blank" class="btn btn trail-btn focus-reset" href="#form">
+                  Schedule a Call
+               </a></div>
          </div>
       </div>
    </div>
@@ -78,9 +80,9 @@
    <!--costume header section start -->
    <div class="costume_header">
       <div class="container">
-         <div class="menu_main">
+         <div class="menu_main" id="menu">
             <ul>
-               <li class="active"><a href="index.html">Home</a></li>
+               <li><a href="index.html">Home</a></li>
                <li><a href="about.html">About</a></li>
                <li><a href="services.html">Services</a></li>
                <li><a href="contact.html">Contact Us</a></li>
@@ -194,38 +196,44 @@
             <div class="col-md-6 padding_0">
                <div><img src="images/img-10.png" class="image_10"></div>
             </div>
-            <div class="col-md-6">
-               <div class="email_text">
-                  <div class="form-group">
-                     <label for="">Full Name</label>
-                     <input type="text" class="email-bt" placeholder="Full Name"  name="Email">
+
+
+            <div id="form" class="col-md-6">
+               <form action="https://formsubmit.co/contact@industechvalley.com.au" method="POST">
+                  <div class="email_text">
+                     <div class="form-group">
+                        <label for="">Full Name</label>
+                        <input type="text" class="email-bt"  name="name" id="name">
+                     </div>
+                     <div class="form-group">
+                        <label for="">Email Address</label>
+                        <input type="text" class="email-bt" name="email" id="email">
+                     </div>
+                     <div class="form-group">
+                        <label for="plan" class="mb-3 block text-base font-medium text-[#07074D]">
+                           Plan
+                        </label>
+                        <div class="drop">
+                           <select name="subject" id="plan" class="w-full  bg-white">
+                              <div class="select">
+                                 <option value="web-devlopment">Web Development</option>
+                                 <option value="brand-logo-design">Brand Logo Design</option>
+                                 <option value="application-development">Application Development</option>
+                                 <option value="web-hosting">Web Hosting</option>
+                              </div>
+
+                           </select>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <label for="">Message</label>
+                        <textarea class="massage-bt" placeholder="Type your message" rows="5" id="massage"
+                           name="massage"></textarea>
+                     </div>
+                     <!-- <div class="send_btn"><a href="#">Submit</a></div> -->
+                     <button class="form-btn">Submit</button>
                   </div>
-                  <div class="form-group">
-                     <label for="">Email Address</label>
-                     <input type="text" class="email-bt" placeholder="example@domain.com" name="Email">
-                  </div>
-                  <div class="form-group">
-                     <label for="plan" class="mb-3 block text-base font-medium text-[#07074D]">
-                        Plan
-                      </label>
-                      <div class="drop">
-                        <select name="subject" id="plan" class="w-full  bg-white">
-                          <div class="select">
-                           <option value="web-devlopment">Web Development</option>
-                           <option value="brand-logo-design">Brand Logo Design</option>
-                           <option value="application-development">Application Development</option>
-                           <option value="web-hosting">Web Hosting</option> 
-                          </div>
-             
-                         </select>
-                      </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="">Message</label>
-                    <textarea class="massage-bt" placeholder="Type your message" rows="5" id="comment" name="Massage"></textarea>
-                  </div>
-                  <div class="send_btn"><a href="#">SEND</a></div>
-               </div>
+               </form>
             </div>
          </div>
       </div>
@@ -235,29 +243,25 @@
    <div class="footer_section layout_padding">
       <div class="container">
          <div class="row">
-            <div class="col-lg-5 col-sm-6">
-               <div class="footer_logo"><img src="images/footer-logo.png"></div>
-               <p class="dolor_text">There are many variations of passages of Lorem Ipsum available, but the majority
-                  have suffered alteration in some form, by injected humour, or </p>
+            <div class="col-lg-6 col-sm-6">
+               <div class="footer_logo"><img src="images/logo.png"></div>
+               <p class="dolor_text">Providing cutting-edge web, app, software, and hosting solutions. Your technology
+                  partner for innovation and success. </p>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-6 col-sm-6">
                <h4 class="address_text">Adderes</h4>
-               <p class="dolor_text">passages of Lorem Ipsum available, but the majority have</p>
-               <p class="dolor_text">(+71) 9876543213</p>
-               <p class="dolor_text">demo@gmail.com</p>
+               <p class="dolor_text">Unit 403. 19 Bothwell Street Mt Gravatt East Qld 4122</p>
+               <p class="dolor_text">+61 473 359 250</p>
+               <p class="dolor_text">contact@industechvalley.com.au</p>
             </div>
-            <div class="col-lg-4 col-sm-12">
-               <h4 class="address_text">Newsletter</h4>
-               <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
-               <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-            </div>
+         
          </div>
          <div class="social_icon">
             <ul>
-               <li><a href="#"><img src="images/fb-icon.png"></a></li>
-               <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-               <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-               <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+               <li><a href="https://www.facebook.com/Industechvalley" target="_blank"><img src="images/fb-icon.png"></a></li>
+               <li><a href="https://www.facebook.com/Industechvalley" target="_blank"><img src="images/twitter-icon.png"></a></li>
+               <li><a href="https://www.facebook.com/Industechvalley" target="_blank"><img src="images/linkedin-icon.png"></a></li>
+               <li><a href="https://www.facebook.com/Industechvalley" target="_blank"><img src="images/instagram-icon.png"></a></li>
             </ul>
          </div>
       </div>
@@ -265,8 +269,7 @@
    <!--footer section end -->
    <!-- copyright section start -->
    <div class="copyright_section">
-      <div class="copyright_text">Copyright 2019 All Right Reserved By <a href="https://html.design">Free html
-            Templates</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></div>
+      <div class="copyright_text">© 2022 Indus Tech Valley. All Rights Reserved.</div>
    </div>
    <!-- copyright section end -->
    <!-- Javascript files-->
@@ -302,6 +305,8 @@
       });
 
    </script>
+
+
 </body>
 
 </html>
