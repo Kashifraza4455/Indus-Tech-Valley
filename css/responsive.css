@@ -606,8 +606,9 @@
         padding-top: 30px;
     }
     .banner_text {
-        width: 98%;
-        font-size: 25px;
+        width: 99%;
+        font-size: 18px;
+        font-weight: bolder;
     }
     .costume_header {
         display: none;
