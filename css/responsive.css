@@ -24,6 +24,7 @@
     .mg {
         margin: 0px 0px;
     }
+    
     .menu-area-main {
         height: 256px;
         overflow-y: auto;
@@ -92,6 +93,13 @@
     }
     .megamenu>.row [class*="col-"] {
         padding: 0px;
+    }
+    .logo {
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 0px;
+        left: 1%;
     }
     .menu-area-main .megamenu .men-cat {
         padding: 0px 15px;
