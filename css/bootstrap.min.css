@@ -3341,9 +3341,9 @@ input[type=submit].btn-block {
     opacity: 0
 }
 
-.collapse:not(.show) {
+/* .collapse:not(.show) {
     display: none
-}
+} */
 
 .collapsing {
     position: relative;
@@ -4303,7 +4303,7 @@ input[type=submit].btn-block {
     display: block
 }
 
-.navbar {
+/* .navbar {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -4314,7 +4314,7 @@ input[type=submit].btn-block {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: .5rem 1rem
-}
+} */
 
 .navbar>.container,
 .navbar>.container-fluid {
@@ -4335,7 +4335,9 @@ input[type=submit].btn-block {
     margin-right: 1rem;
     font-size: 1.25rem;
     line-height: inherit;
-    white-space: nowrap
+    white-space: nowrap;
+    position: relative;
+    left: 78px;
 }
 
 .navbar-brand:focus,
@@ -4375,7 +4377,7 @@ input[type=submit].btn-block {
     -ms-flex-positive: 1;
     flex-grow: 1;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
 }
 
 .navbar-toggler {
@@ -4386,7 +4388,9 @@ input[type=submit].btn-block {
     border: 1px solid transparent;
     border-radius: .25rem
 }
-
+.collapse:not(.show) {
+    display: none;
+}
 .navbar-toggler:focus,
 .navbar-toggler:hover {
     text-decoration: none
@@ -4403,7 +4407,7 @@ input[type=submit].btn-block {
     vertical-align: middle;
     content: "";
     background: no-repeat center center;
-    background-size: 100% 100%
+    background-size: 100% 100%;
 }
 
 @media (max-width:575.98px) {
@@ -4420,16 +4424,16 @@ input[type=submit].btn-block {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
         -ms-flex-pack: start;
-        justify-content: flex-start
+        justify-content: flex-start;
     }
 
     .navbar-expand-sm .navbar-nav {
         -ms-flex-direction: row;
-        flex-direction: row
+        flex-direction: row;
     }
 
     .navbar-expand-sm .navbar-nav .dropdown-menu {
-        position: absolute
+        position: absolute;
     }
 
     .navbar-expand-sm .navbar-nav .nav-link {
@@ -4678,12 +4682,13 @@ input[type=submit].btn-block {
     cursor: pointer;
     position: absolute;
     left: 85%;
-    top: 25%;
+    top: 2%;
 }
 
 .navbar-light .navbar-toggler {
     color: rgba(255, 251, 251, 0.5);
-    border-color: rgba(0, 0, 0, .1)
+    border-color: rgba(0, 0, 0, .1);
+    background: white;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -6582,9 +6587,9 @@ button.bg-danger:hover {
     background-color: #bd2130 !important
 }
 
-.bg-light {
+/* .bg-light {
     background-color: #f8f9fa !important
-}
+} */
 
 a.bg-light:focus,
 a.bg-light:hover,
@@ -9915,7 +9920,8 @@ a.text-dark:hover {
     }
 
     .navbar {
-        display: none
+        display: none;
+        
     }
 
     .badge {

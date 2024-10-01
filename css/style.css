@@ -237,10 +237,6 @@ button {
     top: 14px;
     left: 5%;
 }
-
-.bg-light {
-    background-color: transparent!important;
-}
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 13px;
     padding-left: 13px;
@@ -330,12 +326,7 @@ button {
     float: left;
     background-color: blue;
 }
-ul.navbar-nav.mr-auto {
-    position: absolute;
-    top: 12%;
-    left: 70%;
-    color: white;
-}
+
 
 .menu_main{ 
     width: 70%; 
@@ -800,3 +791,7 @@ label {
     font-weight: 500;
 }
 
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    position: absolute;
+    left: 73%;
+}

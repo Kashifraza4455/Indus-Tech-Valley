@@ -101,6 +101,31 @@
         top: 0px;
         left: 1%;
     }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        position: absolute;
+        left: 40%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 13px;
+        padding-left: 13px;
+        font-size: 13px;
+        color: white;
+        text-transform: uppercase;
+    }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        position: sticky;
+    }
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+        position: relative;
+        left: 0px;
+    }
     .menu-area-main .megamenu .men-cat {
         padding: 0px 15px;
     }
@@ -135,6 +160,7 @@
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
